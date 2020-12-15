@@ -3,18 +3,31 @@
 }
 
 [data-selector="header"] [data-target='bar_1'] {
-    height: 3px;
-    background-color: var(--acid);
+    height: 10px;
 }
 
 [data-selector="header"] [data-target='bar_2'] {
-    height: 20vh;
+    height: 10vh;
     background-color: var(--yuma);
 }
 
 [data-selector="header"][data-target='bg_1'] {
     background-color: var(--manhattan);
 }
+
+[data-selector="header"][data-target='bg_1'] [data-target='bar_1'] {
+    background-color: var(--acid);
+}
+
+[data-selector="header"][data-target='bg_1'] [data-target='bar_2'] {
+    background-color: var(--gem);
+}
+
+
+
+
+
+
 
 [data-selector="header"][data-target='bg_2'] {
     background-color: var(--yuma);
