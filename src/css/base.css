@@ -12,7 +12,3 @@
     --primary_font: 'Work Sans', sans-serif;
     --special_font: "bermanbold";
 }
-
-body {
-    background: var(--hoodie);
-}

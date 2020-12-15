@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    grid-template-rows: minmax(500px, 200px);
+    grid-template-rows: minmax(600px, 200px);
     grid-template-columns: 1fr;
     align-items: center;
 }
@@ -8,6 +8,6 @@
 .logo {
     font-family: var(--special_font);
     font-size: 75px;
-    color: var(--knight);
+    margin-top: 150px;
 }
 

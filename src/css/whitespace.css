@@ -1,12 +1,19 @@
+/* Padding */
 
 .p_md {
     padding: 25px;
 }
 
-.p_sm--y10 {
+.p_sm--x10 {
     padding: 10px 25px;
 }
 
-.m_md--x {
+/* Margins */
+
+.m_md {
+    margin: 25px;
+}
+
+.m_md--y0 {
     margin: 25px 0;
 }

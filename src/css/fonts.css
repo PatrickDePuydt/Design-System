@@ -6,9 +6,20 @@
     font-style: normal;
 }
 
-.link {
-    color: var(--knight);    
+.link {  
     text-decoration: none;
     font-family: var(--primary_font);
     font-weight: 600;
+}
+
+.ft_sm {
+    font-size: 18px;
+}
+
+.ft_md {
+    font-size: 21px;
+}
+
+.ft_lg {
+    font-size: 26px;
 }
