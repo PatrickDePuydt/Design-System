@@ -1,66 +1,14 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url('reset.css');
+@import url('fonts.css');
+@import url('base.css');
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
-@font-face {
-    font-family: 'bermanbold';
-    src: url('../fonts/berman-bold-webfont.woff2') format('woff2'), url('../fonts/berman-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-:root {
-    --manhattan: #f6c6a2;
-    --yuma: #c5bf8d;
-    --caper: #d4eca0;
-    --kelly: #6eb279;
-    --shiloh: #e1a8b7;
-    --gem: #188bf8;
-    --phantasm: #b0b4c0;
-    --hoodie: #dde1ed;
-    --knight: #121212;
-    --primary_font: 'Work Sans', sans-serif;
-    --special_font: "bermanbold";
-}
-
-body {
-    background: var(--hoodie);
-}
 
 .header {
-    background: var(--manhattan);
-    /* padding: 100px 0; */
+    background: var(--gem);
 }
 
 .logo {
     color: var(--knight);
     font-family: var(--special_font);
     font-size: 75px;
-    /* padding: 25px; */
 }

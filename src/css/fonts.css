@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@font-face {
+    font-family: 'bermanbold';
+    src: url('../fonts/berman-bold-webfont.woff2') format('woff2'), url('../fonts/berman-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
