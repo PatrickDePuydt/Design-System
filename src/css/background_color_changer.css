@@ -1,0 +1,41 @@
+[data-selector="header"] [data-selector='color_bar'] {
+    display: inline-block;
+}
+
+[data-selector="header"] [data-target='bar_1'] {
+    height: 3px;
+    background-color: var(--acid);
+}
+
+[data-selector="header"] [data-target='bar_2'] {
+    height: 20vh;
+    background-color: var(--yuma);
+}
+
+[data-selector="header"][data-target='bg_1'] {
+    background-color: var(--manhattan);
+}
+
+[data-selector="header"][data-target='bg_2'] {
+    background-color: var(--yuma);
+}
+
+[data-selector="header"][data-target='bg_3'] {
+    background-color: var(--caper);
+}
+
+[data-selector="header"][data-target='bg_4'] {
+    background-color: var(--kelly);
+}
+
+[data-selector="header"][data-target='bg_5'] {
+    background-color: var(--shiloh);
+}
+
+[data-selector="header"][data-target='bg_6'] {
+    background-color: var(--acid);
+}
+
+[data-selector="header"][data-target='bg_7'] {
+    background-color: var(--gem);
+}

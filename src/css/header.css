@@ -1,9 +1,8 @@
 .header {
     display: grid;
-    grid-template-rows: minmax(90vh, 300px);
+    grid-template-rows: minmax(80vh, 300px);
     grid-template-columns: 1fr;
     align-items: center;
-    border-bottom: 10vh solid transparent;
 }
 
 .logo {
