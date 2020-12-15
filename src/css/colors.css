@@ -1,4 +1,5 @@
 /* Background Colors */
+
 .bg_manhattan {
     background: var(--manhattan);
 }
@@ -13,27 +14,32 @@
     color: var(--knight);
 }
 
+/* Color Pairings Variants */
 
-/* Color Variants */
-
-.bg_1 {
+[data-selector="header"][data-target='bg_1'] {
     background-color: var(--manhattan);
 }
-.bg_2 {
+
+[data-selector="header"][data-target='bg_2'] {
     background-color: var(--yuma);
 }
-.bg_3 {
+
+[data-selector="header"][data-target='bg_3'] {
     background-color: var(--caper);
 }
-.bg_4 {
+
+[data-selector="header"][data-target='bg_4'] {
     background-color: var(--kelly);
 }
-.bg_5 {
+
+[data-selector="header"][data-target='bg_5'] {
     background-color: var(--shiloh);
 }
-.bg_6 {
+
+[data-selector="header"][data-target='bg_6'] {
     background-color: var(--acid);
 }
-.bg_7 {
+
+[data-selector="header"][data-target='bg_7'] {
     background-color: var(--gem);
 }
