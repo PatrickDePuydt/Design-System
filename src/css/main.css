@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@font-face {
+    font-family: 'bermanbold';
+    src: url('../fonts/berman-bold-webfont.woff2') format('woff2'), url('../fonts/berman-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --manhattan: #f6c6a2;
+    --yuma: #c5bf8d;
+    --caper: #d4eca0;
+    --kelly: #6eb279;
+    --shiloh: #e1a8b7;
+    --gem: #188bf8;
+    --phantasm: #b0b4c0;
+    --hoodie: #dde1ed;
+    --knight: #121212;
+    --primary_font: 'Work Sans', sans-serif;
+    --special_font: "bermanbold";
+}
+
+body {
+    background: var(--phantasm);
+}
+
+h1 {
+    color: var(--knight);
+    font-family: var(--special_font);
+}
