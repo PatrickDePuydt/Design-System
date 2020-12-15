@@ -12,3 +12,28 @@
 .cl_knight {
     color: var(--knight);
 }
+
+
+/* Color Variants */
+
+.bg_1 {
+    background-color: var(--manhattan);
+}
+.bg_2 {
+    background-color: var(--yuma);
+}
+.bg_3 {
+    background-color: var(--caper);
+}
+.bg_4 {
+    background-color: var(--kelly);
+}
+.bg_5 {
+    background-color: var(--shiloh);
+}
+.bg_6 {
+    background-color: var(--acid);
+}
+.bg_7 {
+    background-color: var(--gem);
+}
