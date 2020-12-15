@@ -1,14 +1,6 @@
-@import url('reset.css');
-@import url('fonts.css');
-@import url('base.css');
+@import 'reset.css';
+@import 'fonts.css';
+@import 'base.css';
+@import 'header.css';
 
 
-.header {
-    background: var(--gem);
-}
-
-.logo {
-    color: var(--knight);
-    font-family: var(--special_font);
-    font-size: 75px;
-}
