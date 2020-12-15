@@ -5,3 +5,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.link {
+    color: var(--knight);    
+    text-decoration: none;
+    font-family: var(--primary_font);
+    font-weight: 600;
+}

@@ -1,5 +1,4 @@
 .header {
-    background: var(--yuma);
     display: grid;
     grid-template-rows: minmax(500px, 200px);
     grid-template-columns: 1fr;
@@ -7,8 +6,8 @@
 }
 
 .logo {
-    color: var(--knight);
     font-family: var(--special_font);
     font-size: 75px;
-    padding: 25px;
+    color: var(--knight);
 }
+

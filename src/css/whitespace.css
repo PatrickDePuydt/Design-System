@@ -1,0 +1,12 @@
+
+.p_md {
+    padding: 25px;
+}
+
+.p_sm--y10 {
+    padding: 10px 25px;
+}
+
+.m_md--x {
+    margin: 25px 0;
+}
