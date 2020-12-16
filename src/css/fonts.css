@@ -1,25 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
-@font-face {
-    font-family: 'bermanbold';
-    src: url('../fonts/berman-bold-webfont.woff2') format('woff2'), url('../fonts/berman-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.link {  
-    text-decoration: none;
+* {
     font-family: var(--primary_font);
-    font-weight: 600;
 }
 
-.ft_sm {
+.ft_xxs {
+    font-size: 16px;
+}
+
+.ft_xs {
     font-size: 18px;
 }
 
-.ft_md {
+.ft_sm {
     font-size: 21px;
 }
 
+.ft_md {
+    font-size: 28px;
+}
+
 .ft_lg {
-    font-size: 26px;
+    font-size: 32px;
+}
+
+/* Modifications */
+.ft_bold {
+    font-weight: 600;
+}
+
+.ft_chunk {
+    font-weight: 700;
 }

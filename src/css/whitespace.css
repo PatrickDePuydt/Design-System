@@ -1,27 +1,12 @@
-/* Padding */
-
-.p_md {
-    padding: 25px;
+.mgt_xxs {
+    margin-top: 10px;
 }
-
-.p_sm--x10 {
-    padding: 10px 25px;
+.mgt_xs {
+    margin-top: 25px;
 }
-
-/* Margins */
-
-.m_md {
-    margin: 25px;
+.mgt_sm {
+    margin-top: 50px;
 }
-
-.m_md--y0 {
-    margin: 25px 0;
-}
-
-.m_lg--y0 {
-    margin: 50px 0;
-}
-
-.m_xl--y0 {
-    margin: 75px 0;
+.mgt_md {
+    margin-top: 75px;
 }

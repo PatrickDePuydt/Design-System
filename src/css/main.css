@@ -3,13 +3,10 @@
 
 /* Local Styles */
 @import 'fonts.css';
-@import 'base.css';
-@import 'colors.css';
+@import 'variables.css';
+@import 'applied_color.css';
 @import 'whitespace.css';
-
-/* Parts && Sections */
-@import 'header.css';
-
-/*  Plugins */
-@import 'color_changer.css';
+@import 'layout.css';
+@import 'images.css';
+@import 'buttons.css';
 
